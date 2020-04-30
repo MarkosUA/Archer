@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f9cba637dcea7438713330e27db3c6, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  Level: 2
+  CountOfTheSliderEnemies: 3
+  CountOfTheFlyerEnemies: 2
+  CountOfTheBossEnemies: 1
+  MeleeDamage: 30
+  DamageDistance: 1
+  FirstTimerOption_1s: 1
+  SecondTimerOption_2s: 2
+  ThirdTimerOption_200ms: 0.2
+  DistanceForRandMovement: 5

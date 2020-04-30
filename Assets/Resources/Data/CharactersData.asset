@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38d7fd55e9966c41b3588a0cb2c16ea, type: 3}
+  m_Name: CharactersData
+  m_EditorClassIdentifier: 
+  PlayerData: {fileID: 11400000, guid: a737adac84b49ee4f856ca7100d9e97c, type: 2}
+  EnemySliderData: {fileID: 11400000, guid: 2babadfcdb3875a43b0ccba02bb170f9, type: 2}
+  EnemyFlyerData: {fileID: 11400000, guid: 91a671554c923224599e4cc8c4f8966e, type: 2}
+  EnemyBossData: {fileID: 11400000, guid: 428cf6cafca4e3f40b746dc0c18f2afc, type: 2}
