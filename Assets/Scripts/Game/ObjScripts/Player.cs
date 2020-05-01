@@ -27,7 +27,7 @@ public class Player : MonoBehaviour, IDestroyable
         _joystick = joystick;
         _navMeshAgent = GetComponent<NavMeshAgent>();
         _playerHP = charactersData.PlayerData.CharacterHp;
-        _playerSpeed = charactersData.PlayerData.CharacterSpeed / 6.16f;
+        _playerSpeed = charactersData.PlayerData.CharacterSpeed;
         _bulletSystem = bulletSystem;
         _prefabsCreater = prefabsCreater;
         _gameSettings = gameSettings;
@@ -70,7 +70,7 @@ public class Player : MonoBehaviour, IDestroyable
         }
     }
 
-    public void DeActivate()
+    public void Deactivate()
     {
         Destroy(gameObject);
     }

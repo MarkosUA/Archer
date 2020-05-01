@@ -8,7 +8,7 @@ public class Arena : MonoBehaviour
 
     }
 
-    public void DeActivate()
+    public void Deactivate()
     {
         Destroy(gameObject);
     }
